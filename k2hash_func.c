@@ -128,7 +128,7 @@ PHP_FUNCTION(k2hpx_set_debug_level_message)
 }
 /* }}} */
 
-/* {{{ bool k2hpx_unset_debug_file() */
+/* {{{ bool k2hpx_set_debug_file() */
 PHP_FUNCTION(k2hpx_set_debug_file)
 {
 	const char * filepath = NULL;
