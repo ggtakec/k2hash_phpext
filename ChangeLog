@@ -1,3 +1,9 @@
+php-pecl-k2hash (1.1.19) unstable; urgency=low
+
+  * Changed support OS/PHP and Fixed some code - #54
+
+ -- Takeshi Nakatani <ggtakec@gmail.com>  Tue, 21 Apr 2026 18:44:00 +0900
+
 php-pecl-k2hash (1.1.18) unstable; urgency=low
 
   * Fixed packaging issue in fedora:42 and alpine - #52
