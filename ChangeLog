@@ -1,3 +1,9 @@
+php-pecl-k2hash (1.1.20) unstable; urgency=low
+
+  * Updated APKBUILD.templ.in to generalize command detection - #56
+
+ -- Takeshi Nakatani <ggtakec@gmail.com>  Wed, 22 Apr 2026 11:12:57 +0900
+
 php-pecl-k2hash (1.1.19) unstable; urgency=low
 
   * Changed support OS/PHP and Fixed some code - #54
