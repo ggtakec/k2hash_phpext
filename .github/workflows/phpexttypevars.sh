@@ -399,7 +399,7 @@ elif echo "${CI_OSTYPE}" | grep -q -i "fedora:44"; then
 	INSTALL_PKG_LIST="git make diffutils pkgconfig patch yum-utils rpmdevtools redhat-rpm-config rpm-build rpm-devel rpmlint scl-utils-build ruby-devel rubygems procps python3 k2hash-devel"
 
 	INSTALL_PHP_PRE_ADD_REPO=""
-	INSTALL_PHP_REPO="https://rpms.remirepo.net/fedora/remi-release-42.rpm"
+	INSTALL_PHP_REPO="https://rpms.remirepo.net/fedora/remi-release-44.rpm"
 	INSTALL_PHP_PKG_LIST="php${PHPVER_NOPERIOD}-php-devel php${PHPVER_NOPERIOD}-scldevel php${PHPVER_NOPERIOD}-build"
 	INSTALL_PHP_OPT=""
 	INSTALL_PHP_POST_CONFIG=""
@@ -423,7 +423,7 @@ elif echo "${CI_OSTYPE}" | grep -q -i "fedora:43"; then
 	INSTALL_PKG_LIST="git make diffutils pkgconfig patch yum-utils rpmdevtools redhat-rpm-config rpm-build rpm-devel rpmlint scl-utils-build ruby-devel rubygems procps python3 k2hash-devel"
 
 	INSTALL_PHP_PRE_ADD_REPO=""
-	INSTALL_PHP_REPO="https://rpms.remirepo.net/fedora/remi-release-41.rpm"
+	INSTALL_PHP_REPO="https://rpms.remirepo.net/fedora/remi-release-43.rpm"
 	INSTALL_PHP_PKG_LIST="php${PHPVER_NOPERIOD}-php-devel php${PHPVER_NOPERIOD}-scldevel php${PHPVER_NOPERIOD}-build"
 	INSTALL_PHP_OPT=""
 	INSTALL_PHP_POST_CONFIG=""
